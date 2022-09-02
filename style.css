@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    height: 2159px;
+    background-image: url(source/bckgrn2.png);
+    background-size: cover;
+}
+
+.container{
+    width: 1178px;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+.logo{
+    width: 230px;
+    height: 50px;
+}
+
+.nav-items{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 95px;
+}
+
+.nav-links{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+.nav-link.active{
+    font-weight: bold;
+    border-bottom: 3px solid #7A7A7A;
+    color: #7A7A7A;
+}
+
+button.btn-secondary{
+    padding: 9px 23px;
+    border-radius: 100px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0 10px 20px #00000027;
+    cursor: pointer;
+}
+
+section.home{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1.1fr 1fr;
+}
+
+.text-section{
+    padding-top: 166px;
+}
+
+h1{
+    line-height: 58px;
+    cursor: default;
+}
+
+h1.large-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #1b1b1b;
+}
+
+h1.large-title2{
+    font-size: 80px;
+    font-weight: bold;
+    color: #1b1b1b;
+    margin-bottom: 30px;
+}
+
+p.lorem{
+    width: 385px;
+    height: 97.15px;
+    cursor: default;
+}
+
+.btn-primary{
+    width: 165px;
+    height: 47.6px;
+    background-color: #DA8A3A;
+    border: none;
+    border-radius: 100px;
+    box-shadow: 5px 10px 20px #00000027;
+    cursor: pointer;
+}
+
+p.ordernow{
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+img.buy{
+    position: absolute;
+    width: 27px;
+    height: 29.15px;
+    left: 13px;
+    top: 516px;
+}
+
+img.menu{
+    width: 644px;
+    height: 435px;
+    position: absolute;
+    left: 480px;
+    top: 190px;
+}
+
+.sosial-media{
+    position: absolute;
+    right: 0;
+    top: 700px;
+}
+
+img.watsap{
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+img.fb{
+    width: 48px;
+    height: 48px;
+    margin: 0 40px;
+    cursor: pointer;
+}
+
+img.ige{
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+section.Varian{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    margin-top: 320px;
+}
+
+.varian-sec{
+    width: 1022px;
+    margin: auto;
+}
+
+h1.varian-menu{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+p.deskripsi{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.menu-moomoon{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 77px;
+}
+
+img.oreo{
+    width: 282px;
+    height: 282px;
+}
+
+img.coklat{
+    width: 282px;
+    height: 282px;
+}
+
+img.beng-beng{
+    width: 282px;
+    height: 282px;
+}
+
+.menu-moomoon2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+}
+
+img.red-velvet{
+    width: 282px;
+    height: 282px;
+}
+
+img.tiramisu{
+    width: 282px;
+    height: 282px;
+}
+
+img.green-tea{
+    width: 282px;
+    height: 282px;
+}
+
+#contact {
+    margin-top: 130px;
+    background: #DA8A3A;
+    padding: 50px 0px 50px 0px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;    
+}
+
+.wrapper{
+    width: 100%;
+    height: 225px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.footer {
+    width: 95%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+
+h3.logo-moomoon{
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+p.lorem-moomoon{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+h3.moomoon-about{
+    color: #fff;
+    font-size: 28px;
+}
+
+p.lorem-about{
+    font-size: 18px;
+    margin-top: 46px;
+}
+
+h3.contact-moomoon{
+    font-size: 28px;
+    color: #fff;
+}
+
+p.alamat{
+    margin-top: 41px;
+    font-size: 18px;
+}
+
+p.kode-pos{
+    font-size: 18px;
+}
+
+h3.social-moomoon{
+    font-size: 28px;
+    color: #fff;
+}
+
+p.youtube-moomoon{
+    font-size: 18px;
+    margin-top: 38px;
+}
+
+/* Hamburger Menu */
+
+
+
+/* Membuat Tampilan Resoponsive */
+
+
+/* Versi Mobile */
+
+@media screen and (max-width: 576px){
+
+/* Hamburger Menu */
+
+.line{
+    width: 28px;
+    height: 4px;
+    background-color: #1b1b1b;
+    margin-bottom: 3px;
+    border-radius: 5px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 1315px;
+    background-image: url(source/background-mobile.png);
+    background-size: cover;
+}
+
+
+.container{
+    width: 90%;
+}
+
+.logo{
+    width: 33%;
+    height: 40%;
+}
+
+.burger{
+    cursor: pointer;
+}
+
+.nav-items {
+    margin-left: 0;
+    position: absolute;
+    flex-direction: column;
+    z-index: 999;
+    top: 70px;
+    background-color: #fff;
+    width: 460px;
+    justify-content: start;
+    height: 91vh;
+    align-items: center;
+    display: none;
+}
+
+.background-image{
+    background-image: none;
+}
+
+.toggle-on{
+    display: block;
+}
+
+.nav-links{
+    flex-direction: column;
+    height: 70%;
+    width: 100%;
+    color: #1b1b1b;
+}
+
+.nav-link{
+    color: #1b1b1b;
+}
+
+.nav-link.active{
+    font-weight: bold;
+    border: none;
+    color: #1b1b1b;
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+button.btn-secondary{
+    padding: 0;
+    width: 153px;
+    height: 44px;
+    border-radius: 100px;
+    background-color: #fff;
+    color: #1b1b1b;
+    text-align: center;
+    border: 2px solid #1b1b1b;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0 10px 20px #00000027;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.text-section{
+    padding-top: 80px;
+}
+
+
+h1{
+    line-height: 22px;
+}
+
+h1.large-title{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h1.large-title2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+
+p.lorem{
+    width: 230px;
+    height: 97.15px;
+    cursor: default;
+    font-size: 14px;
+}
+
+.btn-primary{
+    width: 120px;
+    height: 35px;
+}
+
+p.ordernow{
+    font-size: 12px;
+    margin-left: 25px;
+}
+
+img.buy{
+    width: 24px;
+    height: 24px;
+    left: 10px;
+    top: 339px;
+}
+
+img.menu{
+    width: 52%;
+    height: 15%;
+    position: absolute;
+    left: 165px;
+    top: 122px;
+}
+
+.sosial-media{
+    position: absolute;
+    right: -8px;
+    top: 280px;
+}
+
+img.watsap{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+img.fb{
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+img.ige{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+section.Varian{
+    margin-top: 100px;
+}
+
+.varian-sec{
+    width: 90%;
+}
+
+h1.varian-menu{
+    font-size: 40px;
+}
+
+p.deskripsi{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.menu-moomoon{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+img.oreo{
+    width: 145px;
+    height: 145px;
+}
+
+img.coklat{
+    width: 145px;
+    height: 145px;
+}
+
+img.beng-beng{
+    display: none;
+}
+
+.menu-moomoon2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+img.red-velvet{
+    width: 145px;
+    height: 145px;
+}
+
+img.tiramisu{
+    width: 145px;
+    height: 145px;
+}
+
+img.green-tea{
+    display: none;
+}
+
+#contact {
+    margin-top: 130px;
+    height: 400px;
+    width: 100%;
+    background: #DA8A3A;
+    padding: 50px 0px 50px 0px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;    
+}
+
+
+.wrapper{
+    display: none;
+}
+
+
+}
